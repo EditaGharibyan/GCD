@@ -19,7 +19,7 @@ private:
     }
 
     void calculateLCM() {
-        lcm = (a * b) / gcd;
+        lcm =abs( (a * b) / gcd);
     }
 
 public:
